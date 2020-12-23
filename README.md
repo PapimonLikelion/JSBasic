@@ -28,6 +28,7 @@ JavaScript를 공부하며 새로 배운 내용을 기록합니다.
   <br>
     let response = await fetch(url, options);
     let result = await response.json();
+    
   - await 호출 없이 fetch 요청하기
   <br>
     fetch(url, options)
