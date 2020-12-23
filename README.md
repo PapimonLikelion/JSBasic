@@ -21,13 +21,15 @@ JavaScript를 공부하며 새로 배운 내용을 기록합니다.
   - let promise = fetch(url, [options])
     - url: 접근하고자 하는 URL
     - options: 선택 매개변수, method/header 등 지정
-  - 서버에서 응답 헤더를 받자마자 fetch 호출 시 반환받은 promise가 내장 클래스 Response의 인스턴스와 함께 이행 상태
+  - 서버에서 응답 헤더를 받자마자 fetch 호출 시 반환받은 promise가 내장 클래스 Response의 인스턴스와 함께 이행 상태가 됩니다.
   
 - __활용__
-  - await 호출로 fetch 요청하기
+  - await 호출로 fetch 요청하기 
+  <br>
     let response = await fetch(url, options);
     let result = await response.json();
   - await 호출 없이 fetch 요청하기
+  <br>
     fetch(url, options)
       .then(response => response.json())
       .then(result => /* 결과 처리 */)
