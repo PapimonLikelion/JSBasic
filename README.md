@@ -34,3 +34,7 @@ JavaScript를 공부하며 새로 배운 내용을 기록합니다.
     fetch(url, options)
       .then(response => response.json())
       .then(result => /* 결과 처리 */)
+
+(/Project_Capture/paintCapture.PNG)
+
+(/Project Capture/paintCapture.PNG)
